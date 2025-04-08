@@ -3,7 +3,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>아름이 뱃살 키우기</title>
+  <title>아름이 똥뱃살 키우기</title>
   <style>
     body { text-align: center; font-family: Arial; margin-top: 50px; }
     button { padding: 10px 20px; font-size: 16px; margin: 10px; }
@@ -15,7 +15,7 @@
   </style>
 </head>
 <body>
-  <h1>아름이 뱃살 키우기</h1>
+  <h1>아름이 똥뱃살 키우기</h1>
   <p>현재 뱃살: <span id="fat">0</span>g</p>
   <button onclick="eat()">폭식하기</button>
   <button onclick="upgrade()">폭식 강화 (100g)</button>
@@ -40,17 +40,17 @@
         alert("폭식력이 강화되었다! 한 번에 " + fatGain + "g 증가!");
         evolve();
       } else {
-        alert("뱃살이 부족합니다! 더 먹어!");
+        alert("뱃살이 존나 부족합니다! 더 쳐 먹어!");
       }
     }
 
     function evolve() {
       if (fat >= 1000) {
-        image.src = "arumi_stage_3.png";
+        image.src = "arumi_stage_3.png.jpg";
       } else if (fat >= 500) {
-        image.src = "arumi_stage_2.png";
+        image.src = "arumi_stage_2.png.jpg";
       } else {
-        image.src = "arumi_stage_1.png";
+        image.src = "arumi_stage_1.png.jpg";
       }
     }
   </script>
