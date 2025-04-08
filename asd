@@ -37,7 +37,7 @@
         fat -= 100;
         fatGain *= 2;
         document.getElementById("fat").innerText = fat;
-        alert("폭식력이 강화되었다! 한 번에 " + fatGain + "g 증가!");
+        alert("폭식력이 강화되었다! 한 번에 " + fatGain + "100g 증가!");
         evolve();
       } else {
         alert("뱃살이 존나 부족합니다! 더 쳐 먹어!");
